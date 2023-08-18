@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;onix_api&apos;" deleteContents="false" description="Delete resource &apos;onix_api&apos;" element1="/onix_api" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1555540613446"/>
+</session>
