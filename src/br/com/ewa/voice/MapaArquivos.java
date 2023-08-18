@@ -1,4 +1,4 @@
-package br.com.abaco.voice;
+package br.com.ewa.voice;
 
 import java.io.File;
 import java.io.IOException;

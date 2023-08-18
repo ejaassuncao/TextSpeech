@@ -1,4 +1,4 @@
-package br.com.abaco.commons;
+package br.com.ewa.commons;
 
 import javax.servlet.http.HttpServletRequest;
 

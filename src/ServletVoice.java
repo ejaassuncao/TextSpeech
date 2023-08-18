@@ -7,10 +7,10 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import br.com.abaco.commons.Arquivo;
-import br.com.abaco.voice.ChamadaSenha;
-import br.com.abaco.voice.MapaArquivos;
-import br.com.abaco.voice.MergeMp3Builder;
+import br.com.ewa.commons.Arquivo;
+import br.com.ewa.voice.ChamadaSenha;
+import br.com.ewa.voice.MapaArquivos;
+import br.com.ewa.voice.MergeMp3Builder;
 
 @WebServlet("/ServletVoice")
 public class ServletVoice extends HttpServlet {
@@ -26,7 +26,7 @@ public class ServletVoice extends HttpServlet {
 		
 		try {
 
-			// https://text-to-speech-demo.ng.bluemix.net/api/synthesize?voice=pt-BR_IsabelaVoice&text=Senha<break time="500ms"/><prosody rate="-15%">{senha}</prosody>Comparecer ao guichê {guiche}. <break time="1000ms"/>&X-WDC-PL-OPT-OUT=0
+			// https://text-to-speech-demo.ng.bluemix.net/api/synthesize?voice=pt-BR_IsabelaVoice&text=Senha<break time="500ms"/><prosody rate="-15%">{senha}</prosody>Comparecer ao guichï¿½ {guiche}. <break time="1000ms"/>&X-WDC-PL-OPT-OUT=0
 
 			ChamadaSenha chamadaSenha = new ChamadaSenha(
 					request.getParameter("senha"),
@@ -37,7 +37,7 @@ public class ServletVoice extends HttpServlet {
 
 			Arquivo file = new Arquivo(merge.getAbsFile());
 
-			//cabeçalho
+			//cabeï¿½alho
 			response.setContentLength((int) file.length());
 			response.setCharacterEncoding("UTF-8");
 			response.setContentType("audio/mpeg");

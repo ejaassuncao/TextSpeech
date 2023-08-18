@@ -1,9 +1,9 @@
-import br.com.abaco.commons.Caminho;
-import br.com.abaco.commons.Paramentro;
-import br.com.abaco.commons.UrlHost;
-import br.com.abaco.sse.GerenciadorThreads;
-import br.com.abaco.sse.Resource;
-import br.com.abaco.sse.RespostaDTO;
+import br.com.ewa.commons.Caminho;
+import br.com.ewa.commons.Paramentro;
+import br.com.ewa.commons.UrlHost;
+import br.com.ewa.sse.GerenciadorThreads;
+import br.com.ewa.sse.Resource;
+import br.com.ewa.sse.RespostaDTO;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.io.PrintWriter;

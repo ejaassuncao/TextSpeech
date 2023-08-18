@@ -1,4 +1,4 @@
-package br.com.abaco.voice;
+package br.com.ewa.voice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -141,15 +141,15 @@ public class AnalisadorFoneticoNumerico {
 
 		case 5:
 			// milhoes Total =>1
-			throw new Exception("Não implamentado valores igual a 5 casas decimais");
+			throw new Exception("Nï¿½o implamentado valores igual a 5 casas decimais");
 
 		case 6:
-			// Bilhão Total =>1
-			throw new Exception("Não implamentado valores igual a 6 casas decimais");
+			// Bilhï¿½o Total =>1
+			throw new Exception("Nï¿½o implamentado valores igual a 6 casas decimais");
 
 		case 7:
-			// Trilhão Total =>1
-			throw new Exception("Não implamentado valores igual a 7 casas decimais");
+			// Trilhï¿½o Total =>1
+			throw new Exception("Nï¿½o implamentado valores igual a 7 casas decimais");
 
 		}
 

@@ -1,4 +1,4 @@
-package br.com.abaco.sse;
+package br.com.ewa.sse;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package br.com.abaco.commons;
+package br.com.ewa.commons;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -38,7 +38,6 @@ public class Arquivo {
 			throw new IOException("Error Reading The File.");
 		}
 
-		
 	}
 
 }

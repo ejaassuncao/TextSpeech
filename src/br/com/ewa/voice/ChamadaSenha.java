@@ -1,4 +1,4 @@
-package br.com.abaco.voice;
+package br.com.ewa.voice;
 
 public class ChamadaSenha {
 
@@ -35,10 +35,10 @@ public class ChamadaSenha {
 
 	public void isValide() throws Exception {
 		if (this.guiche==null || this.guiche.isEmpty()){
-			throw new Exception("Paramentro guiche não informado");
+			throw new Exception("Paramentro guiche nï¿½o informado");
 		}
 		if (this.senha==null || this.senha.isEmpty()){
-			throw new Exception("Paramentro senha não informado");
+			throw new Exception("Paramentro senha nï¿½o informado");
 		}
 		
 	}

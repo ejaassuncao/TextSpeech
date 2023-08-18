@@ -1,4 +1,4 @@
-package br.com.abaco.voice;
+package br.com.ewa.voice;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -35,7 +35,7 @@ public class MergeMp3Builder {
 			String texto) throws Exception {
 
 		// apenas para senha PWS123
-		// não ve bem imbalharada exemplo: PE6NHF23
+		// nï¿½o ve bem imbalharada exemplo: PE6NHF23
 		
 		//TODO:criar uma analisado de texto
 		// soletre
@@ -47,7 +47,7 @@ public class MergeMp3Builder {
 				vector.add(new FileInputStream(absArquivo));
 			} catch (FileNotFoundException e) {
 				throw new FileNotFoundException(
-						"Arquivo de audio não encontrado: " + absArquivo);
+						"Arquivo de audio nï¿½o encontrado: " + absArquivo);
 			}
 		}
 				
@@ -59,7 +59,7 @@ public class MergeMp3Builder {
 					vector.add(new FileInputStream(absArquivo));
 				} catch (FileNotFoundException e) {
 					throw new FileNotFoundException(
-							"Arquivo de audio não encontrado: " + absArquivo);
+							"Arquivo de audio nï¿½o encontrado: " + absArquivo);
 				}
 			}
 		}
